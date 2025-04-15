@@ -10,7 +10,7 @@ import TransactionManagement from "./pages/TransactionManagement";
 import ReportsAnalytics from "./pages/ReportsAnalytics";
 import CMS from "./pages/CMS";
 import NotificationsPage from "./pages/NotificationsPage";
-import Profile from "./pages/profile";
+import Profile from "./pages/Profile";
 import './App.css'
 import { User } from "lucide-react";
 import Privacypolicy from "./pages/Privacypolicy"; 

@@ -31,7 +31,7 @@ const CustomTooltip = ({ active, payload }) => {
 
 const ChartUserAnalytics = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
-  const [selectedOption, setSelectedOption] = useState("24 Jan");
+  const [selectedOption, setSelectedOption] = useState("Weekly");
 
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
@@ -43,7 +43,8 @@ const ChartUserAnalytics = () => {
   };
 
   return (
-    <div className="bg-white p-6 rounded-xl border border-gray-200 mt-3 ml-[1px] h-[400px] w-[525px]">
+    <div className="bg-white p-6 rounded-xl border border-gray-200 mt-3 ml-[1px] h-[400px]
+     w-[640px]">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-xl font-semibold text-black mt-[-20px]">User Analytics</h2>
         <div className="relative">

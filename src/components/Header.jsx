@@ -10,7 +10,7 @@ const Header = () => {
       <h2 className="text-[30px] font-normal text-[#010101] ml-[-15px] mt-2">
         Dashboard
       </h2>
-      <div className="flex items-center gap-4 absolute ml-[920px]">
+      <div className="flex items-center gap-4 absolute ml-[1160px]">
         {/* Notification Icon */}
         <div
           className="w-12 h-12 bg-[#4c7b6d] rounded-full flex justify-center items-center cursor-pointer"

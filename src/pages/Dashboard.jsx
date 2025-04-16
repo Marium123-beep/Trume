@@ -28,7 +28,7 @@ const Dashboard = () => {
         <div className="p-5">
 
            {/* Cards Section */}
-           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-16">
+           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
             {cardData.map((e,i)=>(
                 <Card title={e.title} value={e.value} />
 ))}
@@ -38,7 +38,7 @@ const Dashboard = () => {
           {/* Charts Section */}
           <div className="flex  flex-col1 md:flex-col2 gap-6 p-4 ">
 
-          <ChartUserGrowth height={310} width={600}/>
+          <ChartUserGrowth height={310} width={580}/>
 
           <ChartUserAnalytics/>
           </div>

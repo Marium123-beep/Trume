@@ -20,7 +20,7 @@ const [startDate, setStartDate] = useState(null);
           <h1 className="text-xl font-bold mt-[2px] ml-[-20px]">Reports & Analytics</h1>
           <div className="relative w-64 mt-[35px] ">
           
-              <div className="flex space-x-4 ml-[-400px] my-[-46px]">
+              <div className="flex space-x-4 ml-[-460px] my-[-46px]">
                <div className="relative">
                 <DatePicker
                 selected={startDate}
@@ -33,10 +33,10 @@ const [startDate, setStartDate] = useState(null);
                 </div>
                 </div>
 
-              <button className="flex justify-center items-center w-39 p-3  border border-[#f6f6f6] bg-[#4d8073]  text-white rounded-4xl ml-[-50px] mt-[-30px] cursor-pointer whitespace-nowrap">  Export as PDF </button>
+              <button className="flex justify-center items-center w-39 p-3  border border-[#f6f6f6] bg-[#4d8073]  text-white rounded-4xl ml-[-120px] mt-[-30px] cursor-pointer whitespace-nowrap">  Export as PDF </button>
 
 
-              <button className="flex justify-center items-center w-39 p-3  border border-[#4d8073] bg-[#4d8073] rounded-4xl ml-[120px] mt-[-50px] cursor-pointer  text-white">  Export as CSV</button>
+              <button className="flex justify-center items-center w-39 p-3  border border-[#4d8073] bg-[#4d8073] rounded-4xl ml-[60px] mt-[-50px] cursor-pointer  text-white">  Export as CSV</button>
 
           </div>
         </div>
@@ -51,7 +51,7 @@ const [startDate, setStartDate] = useState(null);
         </div>
         </div>
 
-        <div className="flex flex-col p-6 pb-16 ml-[-14px] mt-[-100px] w-[1290px]">
+        <div className="flex flex-col p-6 pb-16 ml-[-14px] mt-[-100px] w-[1310px]">
         {/* Charts Section */}
         
       

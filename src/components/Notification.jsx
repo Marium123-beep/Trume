@@ -24,7 +24,7 @@ const Notification = () => {
   ];
 
   return (
-    <div className="bg-white rounded-xl p-4 border border-[#e5e6ea] ml-4 mt-[4px] w-[350px]">
+    <div className="bg-white rounded-xl p-4 border border-[#e5e6ea] ml-[-15px] mt-[-7px] w-[420px] ">
       {/* Header with View All Button */}
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-xl font-semibold">Notifications</h2>

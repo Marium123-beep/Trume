@@ -19,7 +19,7 @@ const data = [
   { date: "30 Jan", value: 3200 },
 ];
 
-const ChartUserGrowth = ({ height}) => {
+const ChartUserGrowth = ({ height, width }) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState("Weekly");
 
@@ -59,7 +59,7 @@ const ChartUserGrowth = ({ height}) => {
           )}
         </div>
       </div>
-      <ResponsiveContainer width="100%"  height={height}>
+      <ResponsiveContainer width={width} height={height}>
         <LineChart data={data}>
           <XAxis dataKey="date" tick={{ fill: "#4A5568", fontSize: 12 }} />
           <YAxis

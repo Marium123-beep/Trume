@@ -27,7 +27,7 @@ const ChartContent = () => {
         setDropdownOpen(false);
       };
   return (
-    <div className="bg-white rounded-xl border border-[#e5e7eb] p-4  w-[630px]">
+    <div className="bg-white rounded-xl border border-[#e5e7eb] p-4 w-[630px]">
       <div className="flex justify-between items-start mb-4">
         <h2 className="text-xl font-semibold text-black mt-[-5px]">Content Engagement</h2>
            <div className="relative">

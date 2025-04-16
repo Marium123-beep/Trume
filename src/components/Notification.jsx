@@ -23,12 +23,18 @@ const Notification = () => {
     { user: "Wajahat Baloch", message: "Lorem Ipsum is simply dummy text...", time: "9 min ago" },
   ];
 
+
+  const handleViewAll = () => {
+    // Replace with your actual URL for user management page
+    window.open("http://localhost:5173/notifications", "_blank");
+  };
+
   return (
     <div className="bg-white rounded-xl p-4 border border-[#e5e6ea] ml-[-15px] mt-[-7px] w-[420px] ">
       {/* Header with View All Button */}
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-xl font-semibold">Notifications</h2>
-        <button className="border border-[#e5e6ea] bg-[#fafafb] text-[#558679] px-3 py-1 rounded-sm mt-[-12px] w-19 h-7.5 flex justify-center items-center text-[15px] text-nowrap">
+        <button className="border border-[#e5e6ea] bg-[#fafafb] text-[#558679] px-3 py-1 rounded-sm mt-[-12px] w-19 h-7.5 flex justify-center items-center text-[15px] text-nowrap" onClick={handleViewAll}>
           View All
         </button>
       </div>

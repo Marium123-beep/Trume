@@ -39,11 +39,16 @@ const Table = () => {
     };
   }, []);
 
+  
+  const handleViewAll = () => {
+    window.open("http://localhost:5173/user-management", "_blank");
+  };
+
   return (
     <div className="bg-white rounded-xl p-6 border border-[#e5e6ea] overflow-x-auto ml-[-35px] mt-[-7px] w-215 ">
       <div className="mb-4 flex justify-between items-center">
         <h2 className="text-xl font-bold mt-[-22px] ml-[-14px]">Recent User</h2>
-        <button className="border border-[#e5e6ea] bg-[#fafafb] text-[#558679] px-3 py-1 rounded-sm mt-[-12px] w-19 h-7.5 flex justify-center items-center text-[15px] text-nowrap">
+        <button className="border border-[#e5e6ea] bg-[#fafafb] text-[#558679] px-3 py-1 rounded-sm mt-[-12px] w-19 h-7.5 flex justify-center items-center text-[15px] text-nowrap" onClick={handleViewAll}>
           View All
         </button>
       </div>
